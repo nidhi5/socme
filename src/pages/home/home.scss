@@ -1,3 +1,178 @@
-page-home {
+#custom-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100000;
+  width:100%;
+  background-color: #b2dff4;
+}
 
+.flb {
+  background-color: #b2dff4;
+  height:100%;
+  width:100%;
+  animation: pulse 5s linear forwards;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Aligner-item {
+  max-width: 50%;
+}
+.Aligner-item--top {
+  align-self: flex-start;
+}
+.Aligner-item--bottom {
+  align-self: flex-end;
+}
+#custom-overlay img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  animation: animation 3100ms linear infinite both;
+  animation-delay: 1s;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 100%;
+    transition: .8s;
+  }
+}
+
+.div_slide2 {
+  height:100%;
+  width:100%;
+  animation: pulse 5s linear forwards;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div_slide2 img {
+  display: block;
+  margin: 0 auto;
+  width: 70% !important;
+  height: auto;
+}
+
+.div_slide2_content {
+  display: inline-block;
+}
+
+.btn_skip {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+}
+
+.div_signUp_page {
+// background: #245a99; /* Old browsers */
+// background: -moz-linear-gradient(top, #245a99 0%, #579dd6 50%, #ffffff 100%); /* FF3.6-15 */
+// background: -webkit-linear-gradient(top, #245a99 0%,#579dd6 50%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+// background: linear-gradient(to bottom, #245a99 0%,#579dd6 50%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#245a99', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    // background-image: url("/assets/icon/transclu-background.png");
+    padding: 15px 5px;
+    // opacity: .5;
+    margin: 0px 10px;
+}
+
+.button-inner {
+  justify-content: left !important;
+}
+
+.div_signUp_page button span {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.signUp_screen_bg {
+  background-image: url("/assets/icon/alpaka-background-blur.png");
+  background-size: cover;
+  // background-color: #b2dff4;
+}
+
+.button-register {
+  color: #0084c0;
+  background-color: #f5fcff;
+  border: 1px solid #111;
+}
+
+.div_display_signup_btn {
+  position: relative;
+}
+
+.div_signUp_page h6 {
+  font-size: 11px;
+  text-align: left;
+  font-style: italic;
+  padding-left: 52px;
+  color: #111;
+  position: relative;
+    top: -28px;
+}
+
+.div_signUp_page h4 {
+  padding-left: 30px;
+  position: relative;
+  top: -35px;
+}
+
+.div_signUp_page button {
+  width: 70%;
+  margin: 10px auto;
+
+}
+
+.div_guest_signUp span {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+background: #a7c7dc; /* Old browsers */
+background: -moz-linear-gradient(top, #a7c7dc 0%, #85b2d3 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #a7c7dc 0%,#85b2d3 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #a7c7dc 0%,#85b2d3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c7dc', endColorstr='#85b2d3',GradientType=0 ); /* IE6-9 */
+position: relative;
+top: 30px;
+}
+
+.div_guest_signUp h6 {
+    font-size: 12px;
+    font-style: italic;
+    z-index: 30;
+    top: 30px;
+    position: relative;
+}
+
+.div_guest_signUp span .icon-guest {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.div_display_signup_btn i {
+  font-size: 11px;
+  font-style: italic;
+  display: block;
+}
+
+.div_slideAbout_main, .div_slide2_main, div_slide2_main {
+  background-color: #b2dff4;
+}
+
+.btn_continue{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
 }
