@@ -8,6 +8,7 @@ import { ListPage } from '../pages/list/list';
 import { AboutUsPage } from '../pages/aboutus/aboutus';
 import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
+import { BackgroundPage } from '../pages/background/background';
 
 @Component({
   templateUrl: 'app.html'
@@ -30,6 +31,7 @@ export class MyApp {
       { title: 'Register', component: RegisterPage },
       { title: 'About us', component: AboutUsPage },
 
+      { title: 'Backgrounds', component: BackgroundPage },
       { title: 'Trending Businesses', component: AboutUsPage },
       { title: 'Dynamic Count', component: AboutUsPage },
       { title: 'Testimonials', component: AboutUsPage },
