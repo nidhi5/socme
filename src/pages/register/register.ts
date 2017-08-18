@@ -243,6 +243,7 @@ import { NavController, NavParams } from 'ionic-angular';
     justify-content: center !important;
     display: list-item;
     font-size: 16px;
+    padding-top: 15px !important;
   }
 
   .login-form button {
