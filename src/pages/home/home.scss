@@ -95,13 +95,14 @@
 }
 
 .signUp_screen_bg {
-  background-image: url("/assets/icon/alpaka-background-blur.png");
-  background-size: cover;
-  // background-color: #b2dff4;
+  // background-image: url("/assets/icon/alpaka-background-blur.png");
+  // background-size: cover;
+  background-color: #b2dff4;
+  color: #fff;
 }
 
 .button-register {
-  color: #0084c0;
+  color: #fff;
   background-color: #f5fcff;
   border: 1px solid #111;
 }
@@ -115,7 +116,7 @@
   text-align: left;
   font-style: italic;
   padding-left: 52px;
-  color: #111;
+  color: #fff;
   position: relative;
     top: -28px;
 }
@@ -129,7 +130,20 @@
 .div_signUp_page button {
   width: 70%;
   margin: 10px auto;
+  border-radius: 25px;
+  color: #fff;
+}
 
+.div-btn-business{
+  background-color: #f08f3a;
+}
+
+.div-btn-manager{
+  background-color: #488a5e;
+}
+
+.div-btn-influencer {
+  background-color: #3b5998;
 }
 
 .div_guest_signUp span {
@@ -137,17 +151,14 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-background: #a7c7dc; /* Old browsers */
-background: -moz-linear-gradient(top, #a7c7dc 0%, #85b2d3 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #a7c7dc 0%,#85b2d3 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #a7c7dc 0%,#85b2d3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c7dc', endColorstr='#85b2d3',GradientType=0 ); /* IE6-9 */
+  background-color: #00b6f1;
 position: relative;
 top: 30px;
 }
 
 .div_guest_signUp h6 {
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: bolder;
     font-style: italic;
     z-index: 30;
     top: 30px;
