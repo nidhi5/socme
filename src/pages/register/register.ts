@@ -247,7 +247,7 @@ import { NavController, NavParams } from 'ionic-angular';
   }
 
   .login-form button {
-    width: 90%;
+    width: 100%;
     border-radius: 25px;
     text-align: left;
     margin: 15px auto;
