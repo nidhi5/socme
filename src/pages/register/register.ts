@@ -252,7 +252,7 @@ import { NavController, NavParams } from 'ionic-angular';
 
 .login-form ion-item {
     width: 98%;
-    border-radius: 25px;
+    border-radius: 40px;
     text-align: left;
     margin: 15px auto;
     color: #474747;
@@ -275,11 +275,14 @@ import { NavController, NavParams } from 'ionic-angular';
 .trans_item{
     border: 2px solid black;
     border-radius: 25px;
-    background:transparent;:
-    color:#474747
+    background:transparent;
+    color:#474747;
 }
   input::-webkit-input-placeholder {
-color: #474747 !important;
+color: #888888 !important;
+}
+input{
+  margin-top:0px !important;
 }
     `
   ]
