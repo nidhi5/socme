@@ -12,16 +12,45 @@
     <div><ion-icon name="briefcase"></ion-icon></div>
 </div>
 <div text-center class="div-head">SignUp as a Business Owner</div>
-<ion-list no-lines class="form-list">
+
+
+
+<ion-list no-lines>
     <div class="login-form">
-    <button ion-button block outline><ion-icon name="briefcase" icon-right></ion-icon>Business Details</button>
-    <button ion-button block outline><ion-icon name="nuclear"></ion-icon>Description</button>
-    <button ion-button block outline><ion-icon name="analytics"></ion-icon>Website Details</button>
-    <button ion-button block outline><ion-icon name="build"></ion-icon>Industry <ion-icon name="arrow-dropdown" md="md-arrow-dropdown" class="drop-arrw"></ion-icon></button>
-    <button ion-button block outline><ion-icon name="mail"></ion-icon>Email Id</button>
-    <button ion-button block outline><ion-icon name="call"></ion-icon>Phone</button>
-    <button ion-button block outline><ion-icon name="send"></ion-icon>Any Specific Product to Market</button>   
-    
+  <ion-item class="trans_item">
+    <ion-icon name="briefcase" item-left> </ion-icon>
+    <ion-input type="text" placeholder="Business Details"></ion-input>
+  </ion-item>
+  <ion-item class="trans_item">
+    <ion-icon name="nuclear" item-left> </ion-icon>
+    <ion-input type="text" placeholder="Description"></ion-input>
+  </ion-item>  
+  <ion-item class="trans_item">
+    <ion-icon name="analytics" item-left> </ion-icon>
+    <ion-input type="text" placeholder="Website Details"></ion-input>
+  </ion-item> 
+  <ion-item class="trans_item">
+    <ion-icon name="build" item-left> </ion-icon>
+    <ion-label>Industry</ion-label>
+    <ion-select [(ngModel)]="industry">
+      <ion-option value="f">Industry 1</ion-option>
+      <ion-option value="m">Industry 2</ion-option>
+    </ion-select>
+  </ion-item>
+
+
+  <ion-item class="trans_item">
+    <ion-icon name="mail" item-left> </ion-icon>
+    <ion-input type="text" placeholder="Email Id"></ion-input>
+  </ion-item>        
+  <ion-item class="trans_item">
+    <ion-icon name="call" item-left> </ion-icon>
+    <ion-input type="text" placeholder="Phone"></ion-input>
+  </ion-item> 
+  <ion-item class="trans_item">
+    <ion-icon name="send" item-left> </ion-icon>
+    <ion-input type="text" placeholder="Other product"></ion-input>
+  </ion-item>                    
   </div>
 
     <div class="div-social-icon">

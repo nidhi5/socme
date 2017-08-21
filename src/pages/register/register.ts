@@ -33,11 +33,6 @@ import { NavController, NavParams } from 'ionic-angular';
                 background: none;
     border: none;
     }
-    ion-item{
-          background-color: rgba(0, 0, 0, 0.20) !important;
-          color:white;
-          margin-top:10px;
-    }
         .icon-margin-left{
           margin-left: 10px !important;
         }
@@ -256,11 +251,12 @@ import { NavController, NavParams } from 'ionic-angular';
 }
 
 .login-form ion-item {
-    width: 80%;
+    width: 98%;
     border-radius: 25px;
     text-align: left;
     margin: 15px auto;
     color: #474747;
+    border:2px solid black;
     
 }
 
@@ -274,6 +270,16 @@ import { NavController, NavParams } from 'ionic-angular';
 
 .drop-arrw {
   padding-left: 135px;
+}
+
+.trans_item{
+    border: 2px solid black;
+    border-radius: 25px;
+    background:transparent;:
+    color:#474747
+}
+  input::-webkit-input-placeholder {
+color: #474747 !important;
 }
     `
   ]
