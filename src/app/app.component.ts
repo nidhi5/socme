@@ -29,9 +29,9 @@ export class MyApp {
       // { title: 'List', component: ListPage },
       { title: 'Login', component: LoginPage },
       { title: 'Register', component: RegisterPage },
-      { title: 'About us', component: AboutUsPage },
-
+      // { title: 'About us', component: AboutUsPage },
       { title: 'Backgrounds', component: BackgroundPage },
+      
       { title: 'Trending Businesses', component: AboutUsPage },
       { title: 'Dynamic Count', component: AboutUsPage },
       { title: 'Testimonials', component: AboutUsPage },
