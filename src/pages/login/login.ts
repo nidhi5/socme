@@ -115,8 +115,8 @@ import { NavController, NavParams } from 'ionic-angular';
     border-radius: 25px;
     text-align: left;
     margin: 15px auto;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #111;
+    border: 1px solid #111;
 }
 
 .login-form button ion-icon {
@@ -157,7 +157,7 @@ import { NavController, NavParams } from 'ionic-angular';
     top: 50%;
     left: 50%;
     transform: translate(-50%, 0%);
-    color: #fff;
+    color: #111;
     font-size: 50px;
     font-weight: bolder;
 }

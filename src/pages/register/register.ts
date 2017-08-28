@@ -109,10 +109,10 @@ import { NavController, NavParams } from 'ionic-angular';
 
         .register_heading div {
           display: inline-block;
-          width: 100px;
-          height: 100px;
+          width: 80px;
+          height: 80px;
           border-radius: 50%;
-          background-color: #f08f3a;
+          background-color: #12a5f4;
           position: relative;
         }
 
@@ -122,6 +122,11 @@ import { NavController, NavParams } from 'ionic-angular';
           left: 50%;
           transform: translate(-50%, -50%);
           color: #fff;
+        }
+
+        .new-style {
+          width: 100%;
+          padding: 50px 0px;
         }
 
         .animated { 
@@ -222,7 +227,7 @@ import { NavController, NavParams } from 'ionic-angular';
 }
   .div-head {
     font-size: 20px;
-    color: #474747;
+    color: #fafafa;
     font-weight: bolder;
     padding-top: 7px;
   }
