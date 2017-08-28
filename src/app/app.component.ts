@@ -18,29 +18,29 @@ export class MyApp {
 
   rootPage: any = HomePage;
 
-  pages: Array<{title: string, component: any}>;
+  pages: Array<{}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home', component: HomePage },
+      { title: 'Home', component: HomePage , icon: 'home' },
       // { title: 'List', component: ListPage },
-      { title: 'Login', component: LoginPage },
-      { title: 'Register', component: RegisterPage },
+      { title: 'Login', component: LoginPage , icon: 'key' },
+      { title: 'Register', component: RegisterPage , icon:'barcode' },
       // { title: 'About us', component: AboutUsPage },
-      { title: 'Backgrounds', component: BackgroundPage },
+      { title: 'Backgrounds', component: BackgroundPage , icon:'camera' },
       
-      { title: 'Trending Businesses', component: AboutUsPage },
-      { title: 'Dynamic Count', component: AboutUsPage },
-      { title: 'Testimonials', component: AboutUsPage },
-      { title: 'Cancellations', component: AboutUsPage },
-      { title: 'How we are different', component: AboutUsPage },
-      { title: 'Contact us', component: AboutUsPage },
-      { title: 'What we do', component: AboutUsPage },
-      { title: 'How it works', component: AboutUsPage },
-      { title: 'Terms and Conditions', component: AboutUsPage },
+      { title: 'Trending Businesses', component: AboutUsPage , icon: 'clock'},
+      { title: 'Dynamic Count', component: AboutUsPage , icon: 'clock' },
+      { title: 'Testimonials', component: AboutUsPage , icon: 'clock' },
+      { title: 'Cancellations', component: AboutUsPage , icon: 'clock' },
+      { title: 'How we are different', component: AboutUsPage , icon: 'clock' },
+      { title: 'Contact us', component: AboutUsPage , icon: 'clock' },
+      { title: 'What we do', component: AboutUsPage , icon: 'clock' },
+      { title: 'How it works', component: AboutUsPage , icon: 'clock' },
+      { title: 'Terms and Conditions', component: AboutUsPage , icon: 'clock' },
 
     ];
 

@@ -6,7 +6,7 @@ import { NavController, NavParams } from 'ionic-angular';
   templateUrl: 'login.html',
   styles:[`
 .content-ios {
-    background-color: #12A5F4;
+    background-color: #b2dff4;
 }
 
 .animated { 
