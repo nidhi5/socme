@@ -20,6 +20,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     LoginPage,
     RegisterPage,
+    SocialManagerPage,
     AboutUsPage,
     BackgroundPage
   ],
@@ -34,6 +35,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     LoginPage,
     RegisterPage,
+    SocialManagerPage,
     AboutUsPage,
     BackgroundPage
   ],

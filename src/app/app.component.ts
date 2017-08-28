@@ -29,6 +29,7 @@ export class MyApp {
       // { title: 'List', component: ListPage },
       { title: 'Login', component: LoginPage },
       { title: 'Register', component: RegisterPage },
+      { title: 'Social Manager', component: SocialManagerPage },
       // { title: 'About us', component: AboutUsPage },
       { title: 'Backgrounds', component: BackgroundPage },
       
