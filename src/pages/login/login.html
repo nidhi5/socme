@@ -1,12 +1,18 @@
-<ion-content>
+<ion-content padding>
   <div class="login-main-container animated bounceInDown">
-      <div></div>
-  </div> 
-
-  <div class="login-form">
-    <button ion-button block outline><ion-icon name="person" icon-right></ion-icon>Login Id</button>
-    <button ion-button block outline><ion-icon name="key"></ion-icon>Password</button>
+    <div></div>
   </div>
+
+  <ion-list class="login-form" no-lines>
+    <ion-item class="trans_item">
+      <ion-icon name="mail" item-left> </ion-icon>
+      <ion-input type="text" placeholder="Email Id"></ion-input>
+    </ion-item>
+    <ion-item class="trans_item">
+      <ion-icon name="lock" item-left> </ion-icon>
+      <ion-input type="password" placeholder="Password"></ion-input>
+    </ion-item>
+  </ion-list>
 
   <div class="div-login_btn" menuToggle>
     <div>

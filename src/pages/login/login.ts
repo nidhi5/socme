@@ -106,7 +106,10 @@ import { NavController, NavParams } from 'ionic-angular';
   -o-animation-name: bounceInDown;
   animation-name: bounceInDown;
 }
-
+.login-form{
+  display:block
+  margin:auto;
+}
 .login-form button {
     width: 80%;
     border-radius: 25px;
@@ -167,7 +170,25 @@ import { NavController, NavParams } from 'ionic-angular';
     text-align: center;
     font-size: 12px;
     color: #fff;
-}`]
+}
+  .trans_item{
+    border: 2px solid white !important;
+    border-radius: 25px;
+    background:transparent;
+    color:#474747;
+    width100%;
+    margin-bottom: 10px;
+}
+  ion-icon{
+    color:white;
+  }
+    input::-webkit-input-placeholder {
+color: white !important;
+}
+input{
+  color:white;
+}
+  `]
 })
 export class LoginPage {
   selectedItem: any;
