@@ -115,7 +115,7 @@ import { NavController, NavParams } from 'ionic-angular';
     border-radius: 25px;
     text-align: left;
     margin: 15px auto;
-    color: #111;
+    color: #007aff !important;
     border: 1px solid #111;
 }
 
@@ -157,7 +157,7 @@ import { NavController, NavParams } from 'ionic-angular';
     top: 50%;
     left: 50%;
     transform: translate(-50%, 0%);
-    color: #111;
+    color: #007aff !important;
     font-size: 50px;
     font-weight: bolder;
 }
@@ -169,24 +169,24 @@ import { NavController, NavParams } from 'ionic-angular';
 .div-create h6 {
     text-align: center;
     font-size: 12px;
-    color: #fff;
+    color: #007aff !important;
 }
   .trans_item{
     border: 2px solid white !important;
     border-radius: 25px;
-    background:transparent;
-    color:#474747;
+    // background:transparent;
+    color: #007aff !important;
     width100%;
     margin-bottom: 10px;
 }
   ion-icon{
-    color:white;
+    color: #007aff;
   }
     input::-webkit-input-placeholder {
-color: white !important;
+color: #007aff !important;
 }
 input{
-  color:white;
+  color:#007aff !important;
 }
   `]
 })
