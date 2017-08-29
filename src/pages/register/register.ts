@@ -39,6 +39,11 @@ import { NavController, NavParams } from 'ionic-angular';
         .form-item {
           border-radius: 30px;
         }
+
+        .div-social-icon ion-icon {
+          color: #fff !important;
+        }
+
         .btn-insta {
           background-color : #f46f30;
           width: 50px;
@@ -47,7 +52,7 @@ import { NavController, NavParams } from 'ionic-angular';
           display: inline-block;
           text-align: center;
           margin: 0 auto;
-          color: #fff;
+          color: #fff !important;
           position: relative;
           margin: 0px 10px;
         }
@@ -238,7 +243,7 @@ import { NavController, NavParams } from 'ionic-angular';
     border-radius:25px;
     color: #fff;
     text-align: center !important;
-    background-color: #a82400;
+    background-color: #007aff;
     margin: 30px auto;
     justify-content: center !important;
     display: list-item;
@@ -252,7 +257,7 @@ import { NavController, NavParams } from 'ionic-angular';
     text-align: left;
     margin: 15px auto;
     color: #474747;
-    border: 2px solid #111;
+    border: 2px solid #007aff !important;
 }
 
 .login-form ion-item {
@@ -261,8 +266,12 @@ import { NavController, NavParams } from 'ionic-angular';
     text-align: left;
     margin: 15px auto;
     color: #474747;
-    border:2px solid black;
+    border:2px solid #007aff;
     
+}
+
+.apply_color {
+     background-color: #b2dff4 !important;
 }
 
 .login-form button ion-icon {
