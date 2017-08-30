@@ -275,7 +275,7 @@ import { NavController, NavParams } from 'ionic-angular';
 }
 
 .login-form button ion-icon {
-    padding-right: 10px;
+    padding-right: 10px;   
 }
 
 .button-inner {
@@ -290,7 +290,7 @@ import { NavController, NavParams } from 'ionic-angular';
     border: 2px solid black;
     border-radius: 25px;
     background:transparent;
-    color:#474747;
+    color: #fff !important;
 }
   input::-webkit-input-placeholder {
 color: #888888 !important;
